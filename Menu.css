@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Navbar */
+.navbar {
+    background: #2196F3;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 150px;
+    height: 100vh;
+    background: #111;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    padding-top: 20px;
+}
+
+.sidebar button {
+    width: 100%;
+    padding: 10px;
+    background: none;
+    color: white;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.sidebar button:hover {
+    background: #333;
+}
+
+/* Konten */
+.content {
+    margin-left: 160px;
+    padding: 20px;
+}
+
+.page {
+    display: block;
+}
